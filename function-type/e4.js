@@ -1,4 +1,5 @@
-let area=const a=(1,2,c3) =>{
-    return a+b+c;
-}
-console.log(area)
+const area = (a, b, c) => {
+  return a + b + c;
+};
+
+console.log(area(1, 2, 3));
