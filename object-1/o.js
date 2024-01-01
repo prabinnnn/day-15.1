@@ -8,8 +8,10 @@ const person1 = {
   fullname: function () {
     return this.firstname + this.lastname;
   },
-  isEligibletovote: function () {
-    return this.age >= 18;
+  //   isEligibletovote: function () {
+  //     return this.age >= 18;
+  isEligibletovote: () => {
+    return person1.age >= 18;
   },
 };
 console.log(person1);
