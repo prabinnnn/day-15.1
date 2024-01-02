@@ -14,3 +14,4 @@ let property = {
     return discountedPrice1;
   },
 };
+console.log(property.mydis());
