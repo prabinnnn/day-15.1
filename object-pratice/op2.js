@@ -8,5 +8,7 @@ let prod = {
     if (oringalprice < newprice) {
       console.log("this already discount by 7%");
     }
+    return this.name + this.oringalprice + this.discount;
   },
 };
+console.log(prod);
