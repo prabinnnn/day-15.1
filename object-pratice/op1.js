@@ -1,8 +1,8 @@
 let property = {
   address: "baneshwor",
   price: 100000,
-  discount: Math.percentage(10),
-  discount1: Math.percentage(7),
+  discount: "10%",
+  discount1: "7%",
   mydis: function () {
     if (this.price > 100) {
       return this.discount + this.price;
@@ -10,3 +10,4 @@ let property = {
     return this.discount1 + this.price;
   },
 };
+console.log(property.price);
