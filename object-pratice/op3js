@@ -1,0 +1,13 @@
+let cricle={
+ radius:Number(prompt("enter the radius")),
+areaofcircle: function()
+{
+    let area=Math.PI*this.radius^2
+    return area;
+}
+premeterofcircle :function ()
+ {
+    let premeter = 2 * math.PI * this.radius;
+    return premeter;
+}
+};
