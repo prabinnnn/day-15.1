@@ -11,3 +11,4 @@ let prod = {
     return this.name + this.oringalprice + this.discount;
   },
 };
+console.log(prod.checkthepp());
