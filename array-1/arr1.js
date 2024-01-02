@@ -18,4 +18,3 @@ const showname = (people) => {
 //immutable js
 //create a shallow copy and operate on it
 //map,filter,reduce,every,some
-peoples.map((people) => showname(people));
