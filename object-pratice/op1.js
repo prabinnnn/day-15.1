@@ -1,8 +1,8 @@
 let property = {
   address: "baneshwor",
   price: 100000,
-  discount: 10,
-  discount1: 7,
+  discount: Math.percentage(10),
+  discount1: Math.percentage(7),
   mydis: function () {
     if (this.price > 100) {
       return this.discount + this.price;
