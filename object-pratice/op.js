@@ -3,4 +3,4 @@ let student = {
   age: 20,
   address: "baneshwor",
 };
-console.log(student);
+console.log(student.name);
