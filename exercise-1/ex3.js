@@ -5,4 +5,4 @@ let newArr = function (num) {
   }, 0);
   return sum;
 };
-console.log(newArr(num));
+console.log(newArr({ num }));
