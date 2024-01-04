@@ -1,11 +1,9 @@
 let convertTheString = function (arr) {
   let newArr = arr.split(" ");
-  let minArr = [];
   for (let i = 0; i < newArr.length; i++) {
-   let con= newArr[i].charAt(0).toUpperCase() + newArr[i].slice(1);
-   let new=con.push();
+    let convert = newArr[i].charAt(0).toUpperstring() + newArr[i].slice(1);
   }
-  return minArr.join(" ");
+  return convert.join(" ");
 };
 
 console.log(convertTheString("the quick brown fox"));
