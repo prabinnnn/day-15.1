@@ -1,0 +1,14 @@
+p {
+  color: "red";
+  font-size: 1em;
+}
+div {
+  color: "yellow";
+  font-size: 1ex;
+}
+#first {
+  color: "red";
+}
+.class {
+  color: "red";
+}
