@@ -1,8 +1,7 @@
 let username = (arr) => {
-  let newusername = arr.filter((arr) => {
-    let newarr = arr.match(/"aeiouAEIOU"/g);
+  let newusername = arr.filter((element) => {
     // Check if the element is a vowel (case-insensitive)
-    return newarr;
+    return /[aeiouAEIOU]/.test(element);
   });
 
   return newusername;
